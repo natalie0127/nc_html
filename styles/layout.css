@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#div1{
+    width: 100%;
+    height: 270pt;
+    background-color: rgb(199, 0, 57);
+}
+#div2{
+    width:100%;
+    height: 900pt;
+    background-color: rgb(255, 245, 224);
+}
+#div3{
+    width: 100%;
+    height: 200pt;
+    background-color: rgb(20, 30, 70);
+}
+
+#title{
+    font-size: 50pt;
+    color: bisque;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+}
+
+#intro{
+    font-size: 30pt;
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+}
+
+#cat{
+    border-radius: 40%;
+    display: block;
+    margin-top: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    font-size: 20px;
+    color: rgb(255, 105, 105);
+    width: 700pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec1{
+    width: 40%;
+    height: 200pt;
+    background-color: rgb(255, 105, 105);
+    margin-left:8%;
+    margin-top: 50pt;
+    border-radius: 8%;
+}
+
+#sec2{
+    width: 40%;
+    height: 200pt;
+    background-color: rgb(255, 105, 105);
+    margin-right: 8%;
+    margin-left: auto;
+    border-radius: 8%;
+}
+
+.info{
+    padding-top: 60pt;
+    padding-left: 30pt;
+    font-size: 20px;
+    color: rgb(255, 245, 224);
+    width: 420pt;
+    text-align: left;
+}
+
+#pasta{
+    width:180pt;
+    height: auto;
+    margin-left: 65%;
+    margin-top: -18%;
+    border-radius: 5%;
+    border: 3px solid rgb(199, 0, 57);
+}
+#char{
+    width:180pt;
+    height: auto;
+    margin-left: 65%;
+    margin-top: -16%;
+    border-radius: 5%;
+    border: 3px solid rgb(199, 0, 57);
+}
+
+#game{
+    font-size: 25px;
+    color: rgb(255, 245, 224);
+    text-align: center;
+    margin-left: 48%;
+}
+
+.button{
+    background-color: rgb(255, 245, 224);
+    color: rgb(20, 30, 70);
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 48%;
+    cursor: pointer;
+}
