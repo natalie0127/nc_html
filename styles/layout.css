@@ -5,25 +5,34 @@
 
 #div1{
     width: 100%;
-    height: 270pt;
+    height: 280pt;
     background-color: rgb(199, 0, 57);
 }
 #div2{
     width:100%;
-    height: 900pt;
+    height: 1120pt;
     background-color: rgb(255, 245, 224);
 }
 #div3{
     width: 100%;
-    height: 200pt;
+    height: 110pt;
     background-color: rgb(20, 30, 70);
 }
 
 #title{
-    font-size: 50pt;
+    font-size: 5.6rem;
     color: bisque;
     text-align: center;
     font-family: 'Lobster', sans-serif;
+}
+
+h1{
+    color: rgb(29, 29, 117);
+    text-align: center;
+}
+
+u{
+    text-decoration: underline;
 }
 
 #intro{
@@ -49,16 +58,15 @@
     margin-left: auto;
     margin-right: auto;
 }
-#sec1{
+.secL{
     width: 40%;
     height: 200pt;
     background-color: rgb(255, 105, 105);
     margin-left:8%;
-    margin-top: 50pt;
     border-radius: 8%;
 }
 
-#sec2{
+.secR{
     width: 40%;
     height: 200pt;
     background-color: rgb(255, 105, 105);
@@ -76,35 +84,62 @@
     text-align: left;
 }
 
-#pasta{
-    width:180pt;
-    height: auto;
+img{
     margin-left: 65%;
-    margin-top: -18%;
-    border-radius: 5%;
-    border: 3px solid rgb(199, 0, 57);
-}
-#char{
-    width:180pt;
-    height: auto;
-    margin-left: 65%;
-    margin-top: -16%;
     border-radius: 5%;
     border: 3px solid rgb(199, 0, 57);
 }
 
-#game{
+#dog{
+    width: 185px;
+    height: auto;
+    margin-left: 65%;
+    margin-top: -16%;
+}
+
+#char{
+    width: 240px;
+    height: auto;
+    margin-left: 65%;
+    margin-top: -18%;
+}
+
+#money{
+    width: 290px;
+    height: auto;
+    margin-left: 65%;
+    margin-top: -17%;
+}
+
+.links{
     font-size: 25px;
     color: rgb(255, 245, 224);
     text-align: center;
     margin-left: 48%;
+    text-decoration: none;
+}
+.links:hover{
+    color:  rgb(199, 0, 57);
 }
 
 .button{
-    background-color: rgb(255, 245, 224);
-    color: rgb(20, 30, 70);
-    font-size: 22px;
+    background-color: rgb(20, 30, 70);
+    color: rgb(255, 245, 224);
+    font-size: 25px;
+    font-weight: bold;
     padding: 10px;
     margin-left: 48%;
+    margin-top: 50pt;
+    border-radius: 10%;
     cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(20, 30, 70);
+    background-image: -webkit-linear-gradient(rgb(38, 53, 114),rgb(105, 64, 170));
+}
+
+table{
+    width: 650pt;
+    margin-right: auto;
+    margin-left: auto;
 }
